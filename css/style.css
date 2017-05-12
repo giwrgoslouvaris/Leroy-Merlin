@@ -8,3 +8,160 @@
 	font-style: normal;
 } */
 
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+.page-header {
+  margin-bottom: 72px;
+}
+
+.page-header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 600px;
+  padding-top: 60px;
+  background: url('../img/header-bg.jpg') no-repeat;
+  background-position: 30%;
+  background-size: cover;
+}
+
+.page-header__logo {
+  width: 199.4px;
+  height: 138px;
+  margin-bottom: 70.2px;
+  background: url('../img/logo.png') no-repeat center;
+  background-size: contain;
+}
+
+.page-header__text {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 70px;
+}
+
+.page-header__min {
+  text-align: center;
+  font-family: 'PFDinTextPro-Regular';
+  font-size: 28px;
+  color: #ffffff;
+}
+
+.page-header__big {
+  font-family: 'PFDinTextPro-Medium';
+  font-size: 30px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.btn {
+  padding: 18px 23px 16px 24px;
+  font-family: 'PFDinTextPro-Regular';
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 4px;
+  background-color: #4eaf46;
+}
+
+.page-header__btn {
+  margin-bottom: 112px;
+}
+
+.page-header__tick {
+  width: 16px;
+  height: 9px;
+  background: url('../img/arrow.svg') no-repeat center;
+}
+
+.page-header__footer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1024px;
+  margin: 0 auto;
+  min-height: 80px;
+  padding-right: 30px;
+}
+
+.page-header__footer-logo {
+  width: 117.6px;
+  height: 81.4px;
+  background: url('../img/logo.png') no-repeat center;
+  background-size: contain;
+}
+
+.page-header__footer-text {
+  margin-top: 17px;
+  font-family: 'PFDinTextPro-Medium';
+ }
+
+.page-header__footer-min {
+  font-size: 22px;
+}
+
+.page-header__footer-big {
+  font-size: 24px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.page-header__footer-btn {
+  height: 53px;
+  margin-top: 15px;
+}
+
+.features {
+  max-width: 1024px;
+  margin: 0 auto;
+  margin-bottom: 90px;
+  font-family: 'PFDinTextPro-Regular';
+}
+
+.features-title {
+  margin-bottom: 60px;
+  text-align: center;
+  font-size: 30px;
+  color: #000000;
+}
+
+.features__items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.features__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 139px;
+  width: 200px;
+}
+
+.features__item-icon {
+  height: 70px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.features__item-icon-1 {
+  background: url('../img/user.svg') no-repeat center;
+}
+
+.features__item-icon-2 {
+  background: url('../img/gold.svg') no-repeat center;
+}
+
+.features__item-icon-3 {
+  background: url('../img/security.svg') no-repeat center;
+}
+
+.features__item-icon-4 {
+  background: url('../img/chart_up.svg') no-repeat center;
+}
+
+.features__item-text {
+  width: 184px;
+  text-align: center;
+}
