@@ -136,8 +136,7 @@
 
 .page-header__footer {
   display: flex;
-  justify-content: space-between;
-  max-width: 1024px;
+  justify-content: space-around;
   margin: 0 auto;
   min-height: 80px;
   padding-right: 3%;
